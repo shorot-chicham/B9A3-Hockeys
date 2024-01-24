@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockeys</title>
+    <link rel="shortcut icon" href="Images/2.png" type="image/x-icon">
     <!-- Tailwind with Daisy UI  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -35,7 +36,7 @@
 </head>
 
 <body class="font-manrope">
-    <header>
+    <header class="mx-3 lg:mx-24">
         <!-- nav section -->
         <nav>
             <div class="navbar bg-base-100">
@@ -77,8 +78,60 @@
                 </div>
             </div>
         </nav>
+        <!-- slide section  -->
+        <div class="carousel w-full mt-10">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="lg:absolute invisible lg:visible text-white lg:p-8 lg:h-40 lg:w-3/5 rounded-md lg:rounded-2xl bg-black lg:right-8 lg:bottom-8">
+                <h3 class="mb-4 font-extrabold text-2xl">Meet all the heroes from the field</h3>
+                <p>Celebrate hockey excellence. Meet every field hero, their stories, and the moments that define their legendary status.</p>
+              </div>
+              <div class="absolute flex justify-center lg:justify-start transform -translate-y-1/2 left-5 right-5 top-3/4">
+                <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❮</a> 
+                <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="lg:absolute invisible lg:visible text-white lg:p-8 lg:h-40 lg:w-3/5 rounded-md lg:rounded-2xl bg-black lg:right-8 lg:bottom-8">
+                <h3 class="mb-4 font-extrabold text-2xl">Meet all the heroes from the field</h3>
+                <p>Celebrate hockey excellence. Meet every field hero, their stories, and the moments that define their legendary status.</p>
+              </div>
+              <div class="absolute flex justify-center lg:justify-start transform -translate-y-1/2 left-5 right-5 top-3/4">
+                <a href="#slide1" class="btn btn-circle bg-black text-white border-0">❮</a> 
+                <a href="#slide3" class="btn btn-circle bg-black text-white border-0">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="lg:absolute invisible lg:visible text-white lg:p-8 lg:h-40 lg:w-3/5 rounded-md lg:rounded-2xl bg-black lg:right-8 lg:bottom-8">
+                <h3 class="mb-4 font-extrabold text-2xl">Meet all the heroes from the field</h3>
+                <p>Celebrate hockey excellence. Meet every field hero, their stories, and the moments that define their legendary status.</p>
+              </div>
+              <div class="absolute flex justify-center lg:justify-start transform -translate-y-1/2 left-5 right-5 top-3/4">
+                <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❮</a> 
+                <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="lg:absolute invisible lg:visible text-white lg:p-8 lg:h-40 lg:w-3/5 rounded-md lg:rounded-2xl bg-black lg:right-8 lg:bottom-8">
+                <h3 class="mb-4 font-extrabold text-2xl">Meet all the heroes from the field</h3>
+                <p>Celebrate hockey excellence. Meet every field hero, their stories, and the moments that define their legendary status.</p>
+              </div>
+              <div class="absolute flex justify-center lg:justify-start transform -translate-y-1/2 left-5 right-5 top-3/4">
+                <a href="#slide3" class="btn btn-circle bg-black text-white border-0">❮</a> 
+                <a href="#slide1" class="btn btn-circle bg-black text-white border-0">❯</a>
+              </div>
+            </div>
+          </div>
+          <!-- badge section  -->
+          <div class="text-white p-2 mt-4 rounded-2xl bg-black lg:hidden">
+            <h3 class=" font-extrabold text-1xl">Meet all the heroes from the field</h3>
+            <p>Celebrate hockey excellence. Meet every field hero, their stories, and the moments that define their legendary status.</p>
+          </div>
     </header>
-    <main>
+    <main class="mx-3 lg:mx-24">
 
     </main>
     <footer>
